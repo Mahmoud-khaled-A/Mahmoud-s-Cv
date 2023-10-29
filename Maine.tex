@@ -1,0 +1,203 @@
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\PassOptionsToPackage{colorlinks=true}{hyperref}
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+
+
+
+%\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+% \definecolor{carmine}{rgb}{0.59, 0.0, 0.09}
+% \colorlet{color1}{carmine}
+
+\colorlet{color1}{black}
+
+\definecolor{linkblue}{RGB}{5,99,193}
+\AfterPreamble{
+	\hypersetup{
+		linkcolor=linkblue,
+		urlcolor=linkblue
+	}
+}
+
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+%\usepackage[scale=0.75]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3.5cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage[margin=0.85in]{geometry}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{\textbf{Mahmoud Khaled}} % Your first name
+\familyname{}% family
+% Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Teaching Assistant}
+\email{mahmooudkh33@gmail.com}
+\homepage{sites.google.com/view/mahmoud-k-amin/home}
+\address{6 Melrose Road, Muizenberg Cape Town, South Africa.\\}
+
+\mobile{+27 72 790 4408}
+%----------------------------------------------------------------------------------------
+\begin{document}
+	
+	
+	
+	%----------------------------------------------------------------------------------------
+	%	CURRICULUM VITAE
+	%----------------------------------------------------------------------------------------
+	\makecvtitle % Print the CV title
+	\vspace{-0.5in}
+	%----------------------------------------------------------------------------------------
+	%	EDUCATION SECTION
+	%----------------------------------------------------------------------------------------
+	\section*{Personal information}
+	\begin{tabular}{r l}
+		\textbf{Date of birth:$\qquad$} & 22 Dec.~1997 \\
+		\textbf{Citizenship:$\qquad$} & Egyptian\\
+		\textbf{Status:$\qquad$} & Celibate\\
+		\textbf{Address:$\qquad$} & Helwan University, Helwan, Cairo
+	\end{tabular}
+	
+	\section{Education}
+	\cventry{Sep.2023 - Jul.2024}{M.Sc.(Pursuing)}{African Institute For Mathematical Science AIMS}{Cape Town, South Africa \link[\textbf{(Fully Funded Scholarship)}]{https://drive.google.com/file/d/1Cj1eicnGzgb8cs7Li_7Yz7DgOE1Rk_vL/view}}{}
+	\smallskip
+	\cventry{Sep.2022 - May 2023}{Pre M.Sc.}{Helwan University}{Helwan}{}
+	\smallskip
+	% Arguments not required can be left empty
+	\cventry{2016 - 2020}{Bachelor of Science in Mathematics}{Helwan University}{Helwan}{}{\textbf{Total GPA =3.3/4.} Graduated with ``very Good'' (82.47\%). \newline{} Graduation $\backslash$ Final year project: \link[\textbf{Interval Analysis.}]{https://drive.google.com/file/d/1grw5vLLDAPQ97Y2EGvpDPr96mnmfXvFm/view}{}}
+	\smallskip
+	%\section{Ph.D.(Pursuing)}
+	%
+	%\cvitem{Title}{\textbf{On prime rings having differential identities}}
+	%\smallskip
+	%
+	%\cvitem{Supervisor}{Dr. Balchand Prajapati}
+	%
+	%\cvitem{Description}{
+		%Over the last few years lots of research has been done to investigate the relationship
+		%between the structure of prime rings $R$ and the behavior of differential identities defined on $R$. A very first result in this direction was proved by Posner. He showed
+		%that if there is a non-zero derivation on $R$ such that $[d(x), x] = 0 $ for all $x \in R$ then either R is commutative. We studied several differential identities on prime rings}
+	
+	
+	%\section*{Upcoming Visits}
+	%%%
+	%\cvitem{Aug 2021 (Tentative)}{Research visit at \textsc{\bfseries Institute of Mathematics, Czech Academy of Sciences}, Prague }
+	%%	%(\emph{Funded by Dr. Karen Ruth Strung})
+	%%%
+	%\cvitem{Oct - Dec 2021 (Tentative)}{Research visit at \textsc{\bfseries Ritsumeikan University}, Kyoto, Japan}
+	% (\emph{Funded by Dr. Hiroyuki Osaka}).
+	
+	%--------------------------------------------------------------------------
+	\pagestyle{empty} % Removes page numbering
+	
+	
+	
+	
+	%%----------------------------------------------------------------------------------------
+	%%	WORK EXPERIENCE SECTION
+	%%----------------------------------------------------------------------------------------
+	\section{Teaching and Mentoring Experience}
+	
+	\cventry{Oct.~2022 - Aug.2023}{Teaching Assistant}{El-Gazeera Higher Institute for Engineering and Technology}{Cairo.}{}
+	\smallskip
+	
+	\cventry{Sep.~2020 - Now}{Freelance Mathematics lecturer}  {Online teaching.}{}{}
+	\smallskip
+	
+	\cventry{Sep.~2020 - Apr.~2021 }{Teaching Assistant}	{Mathematics Dep., Faculty of Science, Helwan University} {Helwan.}{}
+	\smallskip
+	
+	
+	\section{Seminars \& Schools}
+	\cvitem {$\quad$25-27 Oct.~2023} {\link[\textit{Spring School "On Symmetries of Differential \& Difference Equations and Their Applications"}, Stellenbosch, South Africa]{https://sites.google.com/view/spring-school-stellenbosch/registration?authuser=0}}
+	\cvitem {$\quad$31 Aug.~2023} {\link[\textit{Quadratic Forms, Rings and Codes}, Laboratoire de Mathématiques de Lens, France]{http://leroy.perso.math.cnrs.fr/QFRC2023/QFRC-2023.html}}
+	
+	\cvitem {$\quad$24-28 Jul.~2023} {\link[\textit{Five days faculty development program on 'Data Analysis using Advanced Computational techniques'}, Department of Statistics and Department of Mathematics, Amity University Kolkata, North India]{https://drive.google.com/file/d/11xDh7Ywfn-CQ1OC37PS1ca1zWv8duHSZ/view}}
+	
+	
+	
+	\cvitem {$\quad$27-28 Jan.~2023} {\link[\textit{Categories, Rings and Modules, a conference in honor of  Alberto Facchini}, Online]{https://events.math.unipd.it/CRaM/home}}
+	
+	\cvitem {$\quad$10-21 Dec.~2022} {\link[\textit{Rings, Algebras, and Category Towards Coding and Computer Algebras}, CIMPA school, Helwan University]{https://sites.google.com/view/algebra-winter-school}}
+	\cvitem{24 Jul.~2019}{\textit{Topology and its Applications}, Helwan University.}
+	
+	
+	\section{Awards \& Achievements}
+	\cvitem{Oct. 2023}{\link[Mastercard Foundation Scholar at AIMS: Empowering Africa's Future through Education, Leadership, and Community Impact - Cape Town, South Africa]{https://drive.google.com/file/d/1Cw4_Y6gpo1ibaBJZuy6qBuG3kyzvXKQj/view}}
+	\cvitem{Aug. 2023}{\link[Accepted to study Master's degree at University of Cape Town - Cape Town, South Africa]{https://drive.google.com/file/d/1fShv37HnjqFYeePhe-Ti-bOgzvBU-2iJ/view}}
+	\cvitem{Jun. 2023}{\link[Selected for a fully fund scholarship to study Master's degree at University of Cape Town - Cape Town, South Africa]{https://drive.google.com/file/d/1Cj1eicnGzgb8cs7Li_7Yz7DgOE1Rk_vL/view}}
+	\cvitem{Jun. 2023}{\link[Accepted to study Master 2 Indifférencié Modélisation et Méthodes Mathématiques en Economie et Finance. at Université Paris 1 Panthéon-Sorbonne - Paris, France]{https://drive.google.com/file/d/1Kd4AqqK4CjP7xyOc4iEvahHOBlb440rd/view}}
+	\cvitem{May. 2023}{\link[Selected for the first stage in a fully fund scholarship from the French embassy in Egypt]{https://drive.google.com/file/d/1biphd_CrZBQMHIyMLpJk4fiKaCMxrTmT/view?usp=drive_link}}
+	\cvitem{May. 2023}{\link[Selected for a fully fund scholarship to study Master's degree at Università della Calabria - Calabria, Italy]{https://drive.google.com/file/d/1gxU_4nCywCKF2ZYcR_IvDXElQqV7xjXB/view?usp=drive_link}}
+	\cvitem{Apr. 2023}{\link[Accepted to study Master 2 MPA at Université Côte d'Azur - Nice, France]{https://drive.google.com/file/d/1onuUilvlDZUtXKjNDCon0ina9mkvvfVQ/view?usp=drive_linkRL}}
+	\cvitem{Dec. 2020}{Seventh Place in the Ideal Student Competition at Helwan University.}
+	\cvitem{Dec. 2020}{Ideal Student Certificate, Faculty of Science.}
+	
+	
+	
+	%\section{Selected Workshops and Conferences attended}
+	%
+	%\smallskip
+	%\cvitem{Oct.~2017} {Participated as organization member in Mustafa Elsayed Ceremony.}
+	%\smallskip
+	%\cvitem{Jul.~2018} {Training Workshop at NRIAG Solar Research Egypt, Directed by the German Professor Albert Deng.}
+	%\smallskip
+	%\cvitem{Oct.~2017} {Astronomy club at American University in Cairo.}
+	%\cvitem{Oct. 2017} { Mostafa Elsayed Seminar at Helwan University.}
+	%\medskip
+	%\section{Contributed and Invited Talks}
+	%\cvitem{Feb.~2020}{\textit{Anti Corruption Program, Ministry of Youth and Sports, Egypt.}}
+	%\cvitem{Apr.~2021}{\textit{Orphan Day, Ministry of Youth and Sports, Egypt.}}	
+	
+	%\section{Volunteer \& Social works}
+	%\cvitem{Apr.~2021}{Participation as organizer in \textit{Orphan Day Celebration}, Ministry of Youth and Sports, Cairo.}
+	%\cvitem{Jan.~2020}{First Agent at the Youth Parliament.}
+	%\cvitem{May 2019}{Volunteer for Literacy and Adult Education at Helwan University. }
+	%\cvitem{Dec.~2018}{Volunteer for the Resala Charity Organization.}
+	%\cvitem{Jul.~2018}{Volunteer for Life Makers Foundation.}
+	%\cvitem{Mar.~2017}{Head S.c. in Fekra Community.}
+	%\cvitem{Sep.~2016}{Head of Scientific Committee of the Igabion Team.}
+	
+	\section{Miscellaneous}
+	\begin{tabular}{r l}
+		\textbf{Skills:$\quad$} & \LaTeX, C++, \link[Python]{https://drive.google.com/file/d/1CakxGWXE1Zg6QiP_6TFMqxniJFTiJY9P/view?usp=sharing}, R software, Microsoft Office, Emaze. \\
+		\textbf{Languages:$\quad$} & Arabic(native), English (near-native), French (Basic).
+	\end{tabular}
+
+	\section{References}
+	\textbf{Prof. Andre Leroy} \hfill e-mail: \emaillink{andre.leroy@univ-artois.fr}\\
+	Full Professor, Facult\'e Jean Perrin, Universit\'e d'Artois, Lens, France.\\
+	
+	\textbf{Prof. Laura Cossu} \hfill e-mail:\emaillink{laura.cossu@uni-graz.at} \\
+	Postdoctoral Fellow, Institute of Mathematics and Scientific Computing, University of Graz, Graz, Austria.\\ 
+
+\end{document}
