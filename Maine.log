@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.1)  30 OCT 2023 19:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.1)  14 JAN 2024 19:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -672,12 +672,12 @@ LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
 
  []
 
@@ -687,21 +687,21 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 9.12pt have occurred.
 
 Package rerunfilecheck Info: File `Maine.out' has not changed.
-(rerunfilecheck)             Checksum: 6AC542EDD147E10246D6D4AF95093973;951.
+(rerunfilecheck)             Checksum: D71C37D91930DD78AD5220C9D8EE60AF;843.
  ) 
 Here is how much of TeX's memory you used:
  26120 strings out of 476128
- 506335 string characters out of 5795458
+ 506333 string characters out of 5795458
  1888330 words of memory out of 5000000
- 45983 multiletter control sequences out of 15000+600000
- 524133 words of font info for 105 fonts, out of 8000000 for 9000
+ 45982 multiletter control sequences out of 15000+600000
+ 524190 words of font info for 106 fonts, out of 8000000 for 9000
  1131 hyphenation exceptions out of 8191
  129i,12n,122p,1034b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Maine.pdf (2 pages, 136324 bytes).
+Output written on Maine.pdf (2 pages, 136219 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 10 named destinations out of 1000 (max. 500000)
- 41029 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
+ 9 named destinations out of 1000 (max. 500000)
+ 41021 words of extra memory for PDF output out of 42996 (max. 10000000)
 
